@@ -1,0 +1,17 @@
+User
+___
+firstName: string (NOT NULL),
+lastName: string,
+age: integer,
+email: string (UNIQUE and NOT NULL)
+
+sequelize model: create --name user --attributes firstName:string,lastName:string,age:integer,email:string
+
+Pet
+____
+name: string (NOT NULL),
+species: string,
+description: text,
+userId: integer (fk)
+
+sequelize model:create --name pet --attributes name:string,species:string,description:text,userId:integer
