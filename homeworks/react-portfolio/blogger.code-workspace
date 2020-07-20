@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../dental-spa/src"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../react-burger-stacker"
+		}
+	],
+    "settings": {}
+}
